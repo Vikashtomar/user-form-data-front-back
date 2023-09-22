@@ -6,7 +6,7 @@ function Form() {
   const [formData,setFormData] = useState({      
     username: '',
     email:'',
-   password: '',
+    password: '',
     number:'',
     } );
     const[allusersdata,setAllUsersData] = useState([])
