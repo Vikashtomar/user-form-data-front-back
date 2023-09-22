@@ -46,7 +46,7 @@ function Form() {
 
       axios.get("http://localhost:8080/getAllUsersData")
       .then((result)=>{
-        console.log(result.data.usersData)
+        // console.log(result.data.usersData)
           setAllUsersData(result.data.usersData)
           
       })     
